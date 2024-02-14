@@ -113,6 +113,13 @@ func (i *BootstrapIgnition) Generate(dependencies asset.Parents) error {
 		return err
 	}
 
+	// Disable crio-wipe service
+	i.Config.Systemd.Units = append(i.Config.Systemd.Units, igntypes.Unit{
+		Name:    "crio-wipe.service",
+		Enabled: util.BoolToPtr(false),
+		Mask:    util.BoolToPtr(true),
+	})
+
 	// Fetch install ignition config
 	installIgnitionConfig, err := json.Marshal(installIgnition.Config)
 	if err != nil {
