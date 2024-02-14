@@ -83,6 +83,8 @@ func (i *InstallIgnition) Generate(dependencies asset.Parents) error {
 	if swag.BoolValue(applianceConfig.Config.StopLocalRegistry) {
 		installServices = append(installServices, "stop-local-registry.service")
 		installScripts = append(installScripts, "stop-local-registry.sh")
+		bootstrap.AddStorageFiles(&i.Config,"/etc/crio/crio.conf.d/99-crio-disable-wipe.toml",
+			"configs/crio-disable-wipe.toml.template", nil)
 	}
 
 	// Create install template data
