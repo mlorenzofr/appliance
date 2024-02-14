@@ -113,12 +113,11 @@ func (i *BootstrapIgnition) Generate(dependencies asset.Parents) error {
 		return err
 	}
 
-	// Disable crio-wipe service
-	i.Config.Systemd.Units = append(i.Config.Systemd.Units, igntypes.Unit{
-		Name:    "crio-wipe.service",
-		Enabled: util.BoolToPtr(false),
-		Mask:    util.BoolToPtr(true),
-	})
+	// Prevent image removal from crio-wipe service
+	if err := bootstrap.AddStorageFiles(&i.Config,"/etc/crio/crio.conf.d/99-crio-disable-wipe.toml",
+		"configs/crio-disable-wipe.toml.template", nil); err != nil {
+		return err
+	}
 
 	// Fetch install ignition config
 	installIgnitionConfig, err := json.Marshal(installIgnition.Config)
