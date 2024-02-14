@@ -1,2 +1,5 @@
 [crio]
 clean_shutdown_file = ""
+
+[crio.image]
+pinned_images = ["quay.io/openshift-release-dev/*"]
