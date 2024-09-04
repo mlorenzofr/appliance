@@ -14,7 +14,7 @@ import (
 	"github.com/openshift/appliance/pkg/fileutil"
 	"github.com/openshift/appliance/pkg/log"
 	"github.com/openshift/appliance/pkg/skopeo"
-	"github.com/mlorenzofr/assisted-image-service/pkg/isoeditor"
+	"github.com/openshift/assisted-image-service/pkg/isoeditor"
 	"github.com/openshift/installer/pkg/asset"
 	"github.com/sirupsen/logrus"
 )

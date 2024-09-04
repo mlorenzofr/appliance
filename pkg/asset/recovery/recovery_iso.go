@@ -11,7 +11,7 @@ import (
 	"github.com/openshift/appliance/pkg/consts"
 	"github.com/openshift/appliance/pkg/coreos"
 	"github.com/openshift/appliance/pkg/log"
-	"github.com/mlorenzofr/assisted-image-service/pkg/isoeditor"
+	"github.com/openshift/assisted-image-service/pkg/isoeditor"
 	"github.com/openshift/installer/pkg/asset"
 	"github.com/sirupsen/logrus"
 )
