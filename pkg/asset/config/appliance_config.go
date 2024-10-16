@@ -39,7 +39,7 @@ const (
 	ReleaseArchitecturePPC64le = "ppc64le"
 
 	// Validation values
-	MinDiskSize     = 150
+	MinDiskSize     = 1
 	RegistryMinPort = 1024
 	RegistryMaxPort = 65535
 

@@ -25,7 +25,7 @@ GINKGO_UNITTEST_FLAGS = -ginkgo.focus="$(FOCUS)" -ginkgo.v -ginkgo.skip="$(SKIP)
 .PHONY: build
 
 build:
-	podman build -f Dockerfile.openshift-appliance . -t $(IMAGE)
+	podman build -f Dockerfile.openshift-appliance . --net=host -t $(IMAGE)
 
 build-appliance:
 	mkdir -p build
