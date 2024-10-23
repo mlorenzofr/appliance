@@ -8,11 +8,11 @@ require (
 	github.com/containers/image v3.0.2+incompatible
 	github.com/coreos/ignition/v2 v2.15.0
 	github.com/coreos/stream-metadata-go v0.1.8
-	github.com/diskfs/go-diskfs v1.2.1-0.20210727185522-a769efacd235
+	github.com/diskfs/go-diskfs v1.4.0
 	github.com/dustin/go-humanize v1.0.1
 	github.com/go-openapi/swag v0.22.3
 	github.com/itchyny/gojq v0.12.12
-	github.com/onsi/ginkgo/v2 v2.11.0
+	github.com/onsi/ginkgo/v2 v2.15.0
 	github.com/openconfig/goyang v1.4.2
 	github.com/openshift/assisted-image-service v0.0.0-20220506122314-2f689a1084b8
 	github.com/openshift/assisted-service v0.0.0-20220928142635-a40422bdea61
@@ -36,7 +36,7 @@ require (
 	github.com/containerd/continuity v0.4.3 // indirect
 	github.com/docker/cli v23.0.3+incompatible // indirect
 	github.com/docker/docker v24.0.7+incompatible // indirect
-	github.com/frankban/quicktest v1.14.5 // indirect
+	github.com/elliotwutingfeng/asciiset v0.0.0-20230602022725-51bbb787efab // indirect
 	github.com/go-openapi/strfmt v0.21.3 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
 	github.com/google/pprof v0.0.0-20210720184732-4bb14d4b1be1 // indirect
@@ -44,16 +44,15 @@ require (
 	github.com/hashicorp/go-retryablehttp v0.7.0 // indirect
 	github.com/opencontainers/runc v1.1.11 // indirect
 	github.com/openshift/assisted-service/models v0.0.0 // indirect
-	github.com/pierrec/lz4 v2.3.0+incompatible // indirect
-	github.com/pkg/xattr v0.4.1 // indirect
-	github.com/rogpeppe/go-internal v1.11.0 // indirect
+	github.com/pierrec/lz4/v4 v4.1.17 // indirect
+	github.com/pkg/xattr v0.4.9 // indirect
 	github.com/ulikunitz/xz v0.5.11 // indirect
 	go.opentelemetry.io/otel/metric v1.22.0 // indirect
 	golang.org/x/tools v0.17.0 // indirect
 	google.golang.org/genproto v0.0.0-20240116215550-a9fa1716bcac // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240102182953-50ed04b92917 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240116215550-a9fa1716bcac // indirect
-	gopkg.in/djherbis/times.v1 v1.2.0 // indirect
+	gopkg.in/djherbis/times.v1 v1.3.0 // indirect
 	gorm.io/gorm v1.23.8 // indirect
 )
 
@@ -162,7 +161,6 @@ require (
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.17 // indirect
-	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/metal3-io/baremetal-operator v0.0.0-20220128094204-28771f489634 // indirect
 	github.com/metal3-io/baremetal-operator/apis v0.0.0 // indirect
 	github.com/metal3-io/baremetal-operator/pkg/hardwareutils v0.0.0 // indirect
@@ -172,7 +170,7 @@ require (
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/nutanix-cloud-native/prism-go-client v0.2.1-0.20220804130801-c8a253627c64 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
-	github.com/onsi/gomega v1.27.10
+	github.com/onsi/gomega v1.32.0
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.0-rc6 // indirect
 	github.com/openshift/api v3.9.1-0.20191111211345-a27ff30ebf09+incompatible
@@ -185,24 +183,24 @@ require (
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/ovirt/go-ovirt v0.0.0-20210809163552-d4276e35d3db // indirect
 	github.com/pborman/uuid v1.2.0 // indirect
-	github.com/prometheus/client_golang v1.15.1 // indirect
-	github.com/prometheus/client_model v0.4.0 // indirect
-	github.com/prometheus/common v0.43.0 // indirect
-	github.com/prometheus/procfs v0.9.0 // indirect
+	github.com/prometheus/client_golang v1.19.0 // indirect
+	github.com/prometheus/client_model v0.5.0 // indirect
+	github.com/prometheus/common v0.48.0 // indirect
+	github.com/prometheus/procfs v0.12.0 // indirect
 	github.com/shurcooL/httpfs v0.0.0-20171119174359-809beceb2371 // indirect
 	github.com/shurcooL/vfsgen v0.0.0-20181202132449-6a9ea43bcacd // indirect
 	github.com/vincent-petithory/dataurl v1.0.0
 	github.com/vmware/govmomi v0.27.4 // indirect
 	go.mongodb.org/mongo-driver v1.11.2 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	golang.org/x/oauth2 v0.13.0 // indirect
-	golang.org/x/sync v0.6.0 // indirect
+	golang.org/x/oauth2 v0.16.0 // indirect
+	golang.org/x/sync v0.7.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.2.0 // indirect
 	google.golang.org/api v0.149.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/grpc v1.60.1 // indirect
-	google.golang.org/protobuf v1.32.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/go-playground/validator.v9 v9.31.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
@@ -221,7 +219,7 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
-	github.com/google/uuid v1.5.0 // indirect
+	github.com/google/uuid v1.6.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
@@ -260,3 +258,5 @@ replace github.com/openshift/api => github.com/openshift/api v0.0.0-202302281429
 replace github.com/openshift/assisted-service/api => github.com/openshift/assisted-service/api v0.0.0-20220928142635-a40422bdea61
 
 replace github.com/openshift/assisted-service/models => github.com/openshift/assisted-service/models v0.0.0-20220928142635-a40422bdea61
+
+replace github.com/openshift/assisted-image-service => github.com/mlorenzofr/assisted-image-service v0.0.0-20241023100802-f1786aaff8f0
