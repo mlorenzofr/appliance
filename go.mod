@@ -259,4 +259,4 @@ replace github.com/openshift/assisted-service/api => github.com/openshift/assist
 
 replace github.com/openshift/assisted-service/models => github.com/openshift/assisted-service/models v0.0.0-20220928142635-a40422bdea61
 
-replace github.com/openshift/assisted-image-service => github.com/mlorenzofr/assisted-image-service v0.0.0-20241023102359-2fef011c973e
+replace github.com/openshift/assisted-image-service => github.com/mlorenzofr/assisted-image-service v0.0.0-20241023104611-fab30df95b2f
